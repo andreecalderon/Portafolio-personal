@@ -1,6 +1,6 @@
 .nav-bar {
     height: 100vh;
-    border-right: 1px solid gray;
+   
 }
 
 .nav-bar-div {
@@ -15,5 +15,5 @@
 }
 
 .nav-bar-div .img-logo {
-    width: 4rem;
+    width:8rem;
 }

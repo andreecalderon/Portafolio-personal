@@ -1,0 +1,59 @@
+.contendor {
+    display: grid;
+   
+    gap: 10px; /* Espacio entre herramientas */
+    padding: 20px; /* Espaciado interior */
+}
+
+.herramienta-div {
+    background-color: #f9f9f9; /* Color de fondo de las herramientas */
+    border: 1px solid #ddd; /* Borde de las herramientas */
+    border-radius: 8px; /* Bordes redondeados */
+    padding: 10px; /* Espaciado interior */
+    display: flex; /* Flexbox para alinear contenido */
+    align-items: center; /* Alinear elementos al centro verticalmente */
+    transition: transform 0.2s; /* Animación al pasar el mouse */
+}
+
+.herramienta-div:hover {
+    transform: scale(1.05); /* Efecto de hover para hacer zoom */
+}
+
+.color-block {
+    width: 30px; /* Ancho del bloque de color */
+    height: 30px; /* Alto del bloque de color */
+    margin-right: 10px; /* Espacio a la derecha del bloque de color */
+}
+
+.herramientanombre {
+    font-size: 18px; /* Tamaño de la fuente para el título */
+    margin: 0; /* Eliminar margen */
+}
+.contendorform {
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+    width: 300px; /* Ajusta el ancho según tus necesidades */
+    height: 300px; /* Ajusta la altura según tus necesidades */
+    margin: 0 auto; /* Centrar horizontalmente */
+    text-align: center; /* Centrar el texto */
+}
+
+.div1, .div2{
+border-radius: 10px;
+    border: 1px solid black; /* Bordes para simular campos */
+    padding: 10px; /* Espaciado interno */
+    margin: 10px 0; /* Espaciado vertical entre divs */
+}
+.comentario{
+    height: 200px;
+    border: 1px solid black;
+}
+.btn {
+    margin-left: 180px;
+    margin-top: 10px;
+border-radius: 10px;
+    border: 1px solid black;
+    width: 100px;
+    height: 25px;
+    text-align: center;
+}
